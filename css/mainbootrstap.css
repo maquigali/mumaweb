@@ -41,6 +41,95 @@ html {
     padding: 1%;
 }
 
+/*ABOUT US*/
+
+.grid-container-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+    grid-template-rows: 50px 1fr 1fr 1fr; 
+    margin:0;  
+    height: 100vh;  
+    grid-gap: 10px;
+    align-items: stretch;
+    justify-items: stretch;      
+        
+    
+}
+
+
+
+.about-us-item1 {
+   
+    color: #78A1A6;
+    font-size: x-large;
+    margin-bottom: 3%;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif; 
+    
+    
+    
+}
+
+
+
+.img-pickup {  
+    
+    padding: 20px;  
+       
+    
+
+}
+
+.texto-pickup {   
+    
+    text-align: center;    
+    font-size: medium;
+    background-color: #78A1A6;    
+    font-family: 'Poppins', sans-serif;    
+    color: #faf0e5;
+    transition: width 2s, height 2s, transform 2s;
+     
+    
+}
+  
+  .texto-pickup:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+  }
+
+    
+
+
+
+
+.img-envios {
+   
+    width: 100%; 
+    padding: 20px;    
+    
+    
+
+}
+
+.texto-envios {   
+      
+    text-align: center;    
+    font-size: medium;
+    background-color: #78A1A6;    
+    font-family: 'Poppins', sans-serif;    
+    color: #faf0e5;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+
+.texto-envios:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+  }
+
+
 
 /*CONTACTO*/
 .nav-link {
@@ -49,6 +138,7 @@ html {
     font-family: 'Poppins', sans-serif;
 
 } 
+
 
 .h1-contacto {
     color: #78A1A6;;
@@ -63,6 +153,8 @@ html {
     color: #78A1A6;;
     font-size: medium;     
     font-family: 'Poppins', sans-serif;  
+    margin-top: 5%;
+    margin-bottom: 0%;
 
     
 }
@@ -92,6 +184,45 @@ html {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 3%;
+
+}
+
+
+/*FAQ*/
+
+.grid-formulario-contacto-titulo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 4fr 1fr; 
+    row-gap: 10px;
+    margin: 0%;
+    height: 100vh;
+
+}
+
+.flex-container-faq {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;    
+    color: #78A1A6;;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.flex-container-faq-item1 {
+    font-size: xx-large;
+}
+
+.flex-container-faq-item2 {
+    margin-left: 5%;
+    font-size: x-large;
+
+}
+
+.flex-container-faq-item3 {
+    
+    font-size: large;
+    text-align: justify;
 
 }
 
