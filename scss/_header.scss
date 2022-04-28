@@ -1,0 +1,42 @@
+
+
+.nav-link {
+  
+    color:$color-principal;
+    font-family: $tipografia;
+
+} 
+
+.encabezadoitem {
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.encabezado-item1 {
+    margin-bottom: 5%;
+}
+
+
+ul {
+    
+    width: 100%;
+    list-style-type: none;
+      
+          
+    li {
+        display: inline-block;
+    
+
+        a {
+    
+            text-decoration: none;
+            color: $color-principal;
+            font-size: medium;  
+            padding: 10px;   
+            font-family: $tipografia; 
+            display: inline; 
+        } 
+    }
+}

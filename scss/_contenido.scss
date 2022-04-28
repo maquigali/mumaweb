@@ -1,0 +1,240 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}    
+
+
+
+/*INDEX*/
+
+.encabezadoitem {
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.encabezado-item1 {
+    margin-bottom: 5%;
+}
+
+.body-background {
+    background-color:$color-cremita; 
+}
+
+@mixin sizes ($width, $height) {                /*SACAR DESPUES*/
+    width: $width;
+    height: $height;
+
+}
+  
+
+.main_image1 {
+    @include sizes(100%, 100%);    
+    
+    object-fit: cover;
+
+}
+
+.col-md-4 {
+    padding: 0%;
+}
+
+.col-lg-4 {
+    padding: 0%;
+}
+
+.inlineblock {
+    padding: 1%;
+}
+
+
+@media screen and (max-width: 768px) {    
+
+    /*INDEX 768PX*/
+
+    .bloque1 {
+        display: none;
+    }    
+ 
+    
+   
+    
+}
+
+
+ /*PRODCUTOS*/
+
+ .titulo-grande {
+    font-family: $tipografia-titulos;
+    color: $color-principal;
+    font-size: 50px;
+    padding: 2%;
+}
+
+.grid-prod-b1-img1 {     
+    object-fit: cover;
+}
+
+.grid-prod-b1-descripcion {
+    color: $color-principal;     
+    font-size: 20px;
+    width:100%;
+    height:100%;
+    font-family:$tipografia;
+    padding:5px;
+    text-align: center;
+    
+
+}
+
+
+
+/*ABOUT US*/
+
+.container-about-us {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.aboutus-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.img-pickup {
+    height: 100px;
+}
+
+.img-envios {
+    @extend .img-pickup
+}
+
+.about-us-item1 {     
+        
+    font-family: $tipografia-titulos; 
+       
+    
+}
+
+.about-us-texto{
+    color: $color-principal;
+    font-family: $tipografia;
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+
+.texto-titulo-pickup {
+    font-family: $tipografia;
+    font-weight: bold;
+    font-size: 20px;
+    color: $color-principal
+    
+
+
+}
+.texto-titulo-envios {
+    @extend .texto-titulo-pickup
+   }
+   
+
+.texto-pickup {       
+       
+    font-size: 20px;    
+    font-family: $tipografia;    
+    color: $color-principal;
+         
+    
+}
+
+
+.texto-envios {         
+ @extend.texto-pickup
+    
+}
+
+
+
+
+
+.nav-link {
+
+    color:$color-principal;
+    font-family: $tipografia;
+
+} 
+
+
+.grid-formulario-contacto-titulo {
+    
+    .formulario-contacto-items {
+        background-color: $color-cremita;
+        color: $color-principal;
+        font-size: medium;     
+        font-family: $tipografia;  
+        margin-top: 5%;
+        margin-bottom: 0%;
+        text-align: center;
+    } 
+
+
+    
+}
+
+
+/*contacto*/
+.boton-enviar {
+
+    font-size: small; 
+    color: $color-cremita;
+    background-color: $color-principal;
+    border-radius: 8px;
+    width: 14%;
+    
+    
+}
+
+.boton-borrar {
+    
+   
+    font-size: small; 
+    color: $color-principal;
+    background-color: $color-cremita;
+    border-color: $color-principal;
+    border-radius: 8px;
+    width: 14%;
+    
+}
+
+/*FAQ*/
+
+
+.faq-item2 {
+        
+    font-size: 30px;
+    font-family: $tipografia;
+    font-weight: bold;
+    color: $color-principal;
+    
+}
+
+.faq-item3 {
+    
+    font-size: 20px;
+    font-family: $tipografia;
+    color: $color-principal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+        
+        
+}

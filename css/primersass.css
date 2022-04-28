@@ -1,0 +1,176 @@
+html {
+  font-size: 62.5%; }
+
+/* me marca error 
+@font-face {
+    src: (Fonts/Recoleta-Light.otf);
+    font-family: Recoleta-Light;
+
+}
+*/
+.nav-link {
+  color: #78A1A6;
+  font-family: "Poppins", sans-serif; }
+
+.encabezadoitem {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.encabezado-item1 {
+  margin-bottom: 5%; }
+
+ul {
+  width: 100%;
+  list-style-type: none; }
+  ul li {
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      color: #78A1A6;
+      font-size: medium;
+      padding: 10px;
+      font-family: "Poppins", sans-serif;
+      display: inline; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+/*INDEX*/
+.encabezadoitem {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.encabezado-item1 {
+  margin-bottom: 5%; }
+
+.body-background {
+  background-color: #faf0e5; }
+
+.main_image1 {
+  /*SACAR DESPUES*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.col-md-4 {
+  padding: 0%; }
+
+.col-lg-4 {
+  padding: 0%; }
+
+.inlineblock {
+  padding: 1%; }
+
+@media screen and (max-width: 768px) {
+  /*INDEX 768PX*/
+  .bloque1 {
+    display: none; } }
+
+/*PRODCUTOS*/
+.titulo-grande {
+  font-family: "Recoleta-Light";
+  color: #78A1A6;
+  font-size: 50px;
+  padding: 2%; }
+
+.grid-prod-b1-img1 {
+  object-fit: cover; }
+
+.grid-prod-b1-descripcion {
+  color: #78A1A6;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  text-align: center; }
+
+/*ABOUT US*/
+.container-about-us {
+  margin-left: 200px;
+  margin-right: 200px; }
+
+.aboutus-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; }
+
+.img-pickup, .img-envios {
+  height: 100px; }
+
+.about-us-item1 {
+  font-family: "Recoleta-Light"; }
+
+.about-us-texto {
+  color: #78A1A6;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 10px; }
+
+.texto-titulo-pickup, .texto-titulo-envios {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #78A1A6; }
+
+.texto-pickup, .texto-envios {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #78A1A6; }
+
+.nav-link {
+  color: #78A1A6;
+  font-family: "Poppins", sans-serif; }
+
+.grid-formulario-contacto-titulo .formulario-contacto-items {
+  background-color: #faf0e5;
+  color: #78A1A6;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  text-align: center; }
+
+/*contacto*/
+.boton-enviar {
+  font-size: small;
+  color: #faf0e5;
+  background-color: #78A1A6;
+  border-radius: 8px;
+  width: 14%; }
+
+.boton-borrar {
+  font-size: small;
+  color: #78A1A6;
+  background-color: #faf0e5;
+  border-color: #78A1A6;
+  border-radius: 8px;
+  width: 14%; }
+
+/*FAQ*/
+.faq-item2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #78A1A6; }
+
+.faq-item3 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #78A1A6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15%;
+  padding-right: 15%; }
+
+.footer {
+  color: #78A1A6;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 5%; }
