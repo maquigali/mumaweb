@@ -38,7 +38,7 @@ ul {
       font-weight: bold;
       color: #78A1A6; }
     ul li .dropdown-menu {
-      width: 270px;
+      width: auto;
       text-align: left;
       background-color: #faf0e5;
       white-space: pre-line;
@@ -102,17 +102,6 @@ ul {
   .grid-prod-b1-descripcion .fotos-p-padding {
     padding-left: 15%;
     padding-right: 15%; }
-  .grid-prod-b1-descripcion .img-productos-ex {
-    border: 3px solid #78A1A6; }
-  .grid-prod-b1-descripcion .div-arcoiris {
-    border-style: solid;
-    border-width: 10px;
-    border-color: black; }
-  .grid-prod-b1-descripcion .arcoiris-img {
-    width: 50px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: black; }
 
 .div-boton-vermodelos, .div-boton-masinfo {
   margin-bottom: 50px; }
