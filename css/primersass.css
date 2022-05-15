@@ -26,7 +26,9 @@ ul {
   width: 100%;
   list-style-type: none; }
   ul li {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px; }
     ul li .nav-link {
       text-decoration: none;
       color: #78A1A6;
