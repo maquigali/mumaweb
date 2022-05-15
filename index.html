@@ -12,41 +12,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="body-background">
-    <div class="container-flex">
-        <div class="row">
-            <header class="col-sm-12 col-md-3 col-lg-3 encabezadoitem">           
-                <img class="encabezado-item1" src="img/rincón muma.png" alt="LOGO" width="100px" >                
-            </header>
-            
-            <nav class="col-sm-12 col-md-9 col-lg-9">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                       <a class="nav-link active h2" href ="index.html">HOME</a>
-                   </li>
-                   <li  class="nav-item">
-                       <a class="nav-link h2" href ="pages/productos.html">PRODUCTOS</a>
-                   </li>
-                   <li  class="nav-item">
-                       <a class="nav-link h2" href="pages/quienes-somos.html">QUIENES SOMOS</a>
-                   </li>
-                   <li  class="nav-item">
-                       <a class="nav-link h2" href= "pages/contacto.html">CONTACTO</a>
-                   </li>           
-                   <li class="nav-item" >
-                       <a class="nav-link h2" href= "pages/faq.html">FAQ</a>
-                   </li> 
-                </ul>
-            </nav>
-            
+    <header> <!--LOGO Y MENU-->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-flex">
+            <div class="row">
+                <div class="navbar-div col-sm-12 col-md-1 col-lg-1 text-center">
+                    <a href="index.html">
+                        <img class="navbar-brand" src="img/logosolomuma.png" alt="LOGO" >
+                    </a>
+                </div>
+                <div class="logos-links-redes col-md-1 col-lg-1 justify-content-start">                
+                    <a href="https://www.instagram.com/rincon.muma ">
+                        <img class="logo-redes"  src="img/Instagramlogo.png" alt="instagram" >
+                    </a>              
+                
+                    <a href="https://www.facebook.com/rinconmuma-102346304957383">
+                        <img class="logo-redes"  src="img/FBlogo.png" alt= "facebook" >
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-10 col-lg-10">
+                    <button type="button" class="navbar-toggler navbar-light" width="100px"  data-bs-toggle="collapse" data-bs-target="#menu-navegacion">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="menu-navegacion" class="collapse navbar-collapse">
+                        
+                    <ul class="navbar-nav justify-content-end">                       
+                       <li  class="nav-item dropdown">                           
+                           <a class="nav-link dropdown-toggle h3" role="button" data-bs-toggle="dropdown">PRODUCTOS</a>
+                           <ul class="dropdown-menu">
+                               <li><a class="dropdown-item h3" href="pages/productos.html"> VER TODOS </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-combos.html"> COMBOS</a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-arcoiris.html"> ARCOIRIS WALDORF </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-babitas.html"> BABITAS </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-cubos.html"> CUBOS SENSORIALES </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-librito.html"> LIBRITO MUMA SOFT </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-pelota.html"> PELOTAS MONTESSORI </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-memotest.html"> MEMOTEST </a></li>                               
+                               <li><a class="dropdown-item h3" href="pages/p-mordillo.html"> MORDILLOS </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-pizarron.html"> PIZARRÓN MUMA </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-portachu.html"> PORTACHUPETES </a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-conejos.html"> CONEJITOS DE APEGO</a></li>
+                               <li><a class="dropdown-item h3" href="pages/p-rompecabezas.html"> VALIJITA ROMPECABEZAS </a></li>
+                            </ul>                                   
+                       </li>
+                       <li  class="nav-item">
+                           <a class="nav-link h3" href="pages/quienes-somos.html">QUIÉNES SOMOS</a>
+                       </li>
+                       <li  class="nav-item">
+                           <a class="nav-link h3" href= "pages/contacto.html">CONTACTO</a>
+                       </li>           
+                       <li class="nav-item" >
+                           <a class="nav-link h3" href= "pages/faq.html">FAQ</a>
+                       </li> 
+                    </ul>
+                    </div>
+                </div>               
 
-            <div class="col-md-4 col-lg-4">  
+            </div>
+            </div>           
+
+
+        </nav>
+    </header>         
+
+    <!--MAIN FOTOS-->
+
+    <main>
+        <div class="container-fluid">
+        <div class="row g-0">
+            <div class="col-md-4 col-lg-4 columnas-index">  
                 <img class="bloque1 main_image1" src="img/arcoiris.jpg" alt="img-arcoiris" > 
             </div>            
-            <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-12 col-md-4 col-lg-4" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-12 col-md-4 col-lg-4 columnas-index" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="img/muma-azul.jpg" class="d-block w-100 main_image1" alt="muma-azul">
@@ -56,11 +97,12 @@
                   </div>                  
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="col-sm-6 col-md-4 col-lg-4 columnas-index">
                 <img class="main_image1" src="img/mordirosa.jpg" alt="mordirosa" > 
             </div>
-
-            <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-6 col-md-4 col-lg-4" data-bs-ride="carousel">
+        </div>
+        <div class="row g-0">
+            <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-6 col-md-4 col-lg-4 columnas-index" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="img/hechosamano-r.jpg" class="d-block w-100 main_image1" alt="hechosamano-r">
@@ -71,11 +113,11 @@
                 </div>
             </div>
       
-            <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="col-sm-6 col-md-4 col-lg-4 columnas-index">
                 <img  class="main_image1" src="img/pelotamontessori.jpg" alt="img pelota" >   
             </div>
 
-           <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-6 col-md-4 col-lg-4" data-bs-ride="carousel">
+           <div id="carouselExampleSlidesOnly" class="carousel slide col-sm-6 col-md-4 col-lg-4 columnas-index" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="img/sustentables-rosa.jpg" class="d-block w-100 main_image1" alt="sustentables-rosa">
@@ -84,11 +126,17 @@
                     <img src="img/sustentables-celeste.jpg" class="d-block w-100 main_image1" alt="sustentables-celeste">
                   </div>                  
                 </div>
-            </div>                    
-           
+            </div>      
+        </div>              
+        </div> 
+    
+    </main>
 
-            <footer class="footer"> 
-        
+    <!--FOOTER-->
+
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12" >
                     <p class="inlineblock h3">¡SEGUINOS EN REDES!</p>
                     <a class="inlineblock" href="https://www.instagram.com/rincon.muma ">
@@ -98,10 +146,13 @@
                         <img src="img/FBlogo.png" alt= "facebook" width="20" height="20">
                     </a>
                 </div>  
-            </footer>  
-        </div>   
+            </div>
+        </div>                     
+            
+    </footer>  
+           
         
-    </div>   
+      
 
     <script src="js/bootstrap.bundle.min.js"> </script>
     

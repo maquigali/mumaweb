@@ -1,13 +1,18 @@
 html {
   font-size: 62.5%; }
 
-/* me marca error 
-@font-face {
-    src: (Fonts/Recoleta-Light.otf);
-    font-family: Recoleta-Light;
+.navbar-div {
+  margin-right: 0%; }
+  .navbar-div .navbar-brand {
+    width: 100%;
+    margin-left: 5px;
+    padding-top: 10px; }
 
-}
-*/
+.logos-links-redes .logo-redes {
+  width: 20%;
+  padding-top: 8px;
+  margin-left: 0%; }
+
 .nav-link {
   color: #78A1A6;
   font-family: "Poppins", sans-serif; }
@@ -17,21 +22,38 @@ html {
   justify-content: center;
   align-items: center; }
 
-.encabezado-item1 {
-  margin-bottom: 5%; }
-
 ul {
   width: 100%;
   list-style-type: none; }
   ul li {
     display: inline-block; }
-    ul li a {
+    ul li .nav-link {
       text-decoration: none;
       color: #78A1A6;
-      font-size: medium;
       padding: 10px;
       font-family: "Poppins", sans-serif;
       display: inline; }
+    ul li .nav-link:hover {
+      background-color: transparent;
+      font-weight: bold;
+      color: #78A1A6; }
+    ul li .dropdown-menu {
+      width: 270px;
+      text-align: left;
+      background-color: #faf0e5;
+      white-space: pre-line;
+      border-color: #DB9996;
+      border: 2px solid #DB9996;
+      border-radius: 8px; }
+      ul li .dropdown-menu .dropdown-item {
+        text-decoration: overline;
+        color: #DB9996;
+        width: 100%;
+        display: block;
+        font-family: "Poppins", sans-serif; }
+      ul li .dropdown-menu .dropdown-item:hover {
+        background-color: transparent;
+        font-weight: bold; }
 
 * {
   margin: 0%;
@@ -39,13 +61,14 @@ ul {
   box-sizing: border-box; }
 
 /*INDEX*/
-.encabezadoitem {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.container-fluid {
+  padding-right: 0%;
+  margin-right: 0%;
+  padding-left: 0%;
+  margin-left: 0%; }
 
-.encabezado-item1 {
-  margin-bottom: 5%; }
+.logo-redes {
+  margin: 2%; }
 
 .body-background {
   background-color: #faf0e5; }
@@ -56,38 +79,86 @@ ul {
   height: 100%;
   object-fit: cover; }
 
-.col-md-4 {
+.columnas-index {
   padding: 0%; }
-
-.col-lg-4 {
-  padding: 0%; }
-
-.inlineblock {
-  padding: 1%; }
-
-@media screen and (max-width: 768px) {
-  /*INDEX 768PX*/
-  .bloque1 {
-    display: none; } }
 
 /*PRODCUTOS*/
 .titulo-grande {
-  font-family: "Recoleta-Light";
   color: #78A1A6;
   font-size: 50px;
-  padding: 2%; }
+  font-family: "Lora", serif; }
 
 .grid-prod-b1-img1 {
   object-fit: cover; }
 
 .grid-prod-b1-descripcion {
   color: #78A1A6;
-  font-size: 20px;
+  font-size: 25px;
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif;
-  padding: 5px;
-  text-align: center; }
+  text-align: center;
+  /*BOTONES*/ }
+  .grid-prod-b1-descripcion .fotos-p-padding {
+    padding-left: 15%;
+    padding-right: 15%; }
+  .grid-prod-b1-descripcion .img-productos-ex {
+    border: 3px solid #78A1A6; }
+  .grid-prod-b1-descripcion .div-arcoiris {
+    border-style: solid;
+    border-width: 10px;
+    border-color: black; }
+  .grid-prod-b1-descripcion .arcoiris-img {
+    width: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black; }
+
+.div-boton-vermodelos, .div-boton-masinfo {
+  margin-bottom: 50px; }
+
+.btn-ghost {
+  border: 3px solid #78A1A6;
+  color: #faf0e5;
+  background-color: #78A1A6;
+  border-radius: 12px;
+  font-size: 20px;
+  width: auto; }
+
+.boton-mas-info {
+  font-size: 20px;
+  color: #78A1A6;
+  background-color: #CFE8DE;
+  border-radius: 12px;
+  border: 3px solid #78A1A6;
+  width: auto; }
+
+.btn-ghost:hover, .boton-mas-info:hover, .boton-borrar:hover, .boton-enviar:hover {
+  color: #F1D6D5;
+  background-color: #DB9996;
+  border: 3px solid #F1D6D5; }
+
+.boton-borrar {
+  font-size: 20px;
+  color: #78A1A6;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 3px solid #78A1A6;
+  width: 200px; }
+
+.boton-enviar {
+  font-size: 20px;
+  color: #faf0e5;
+  background-color: #78A1A6;
+  border-radius: 12px;
+  border: 3px solid #78A1A6;
+  width: 200px; }
+
+.formulario-botones-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px; }
 
 /*ABOUT US*/
 .container-about-us {
@@ -99,18 +170,21 @@ ul {
   height: 400px;
   object-fit: cover; }
 
-.img-pickup, .img-envios {
-  height: 100px; }
+.img-pickup, .img-logos {
+  height: auto;
+  width: 80px;
+  object-fit: cover;
+  margin: 20px; }
 
 .about-us-item1 {
-  font-family: "Recoleta-Light"; }
+  font-family: "Lora", serif; }
 
 .about-us-texto {
   color: #78A1A6;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
   margin-top: 10px; }
 
 .texto-titulo-pickup, .texto-titulo-envios {
@@ -123,6 +197,9 @@ ul {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: #78A1A6; }
+
+.nav {
+  padding-right: 20px; }
 
 .nav-link {
   color: #78A1A6;
@@ -137,21 +214,30 @@ ul {
   margin-bottom: 0%;
   text-align: center; }
 
-/*contacto*/
-.boton-enviar {
-  font-size: small;
-  color: #faf0e5;
-  background-color: #78A1A6;
-  border-radius: 8px;
-  width: 14%; }
+/*CONTACTO*/
+.label-nombre {
+  background-color: #CFE8DE;
+  border-radius: 18px;
+  width: 40%;
+  height: 50px;
+  border: 2px solid #78A1A6;
+  border-color: #78A1A6; }
 
-.boton-borrar {
-  font-size: small;
-  color: #78A1A6;
-  background-color: #faf0e5;
-  border-color: #78A1A6;
-  border-radius: 8px;
-  width: 14%; }
+.label-email {
+  background-color: #CFE8DE;
+  border-radius: 18px;
+  width: 50%;
+  height: 50px;
+  border: 2px solid #78A1A6;
+  border-color: #78A1A6; }
+
+.form-control-pedidos {
+  background-color: #CFE8DE;
+  border-radius: 18px;
+  width: 50%;
+  height: 200px;
+  border: 2px solid #78A1A6;
+  border-color: #78A1A6; }
 
 /*FAQ*/
 .faq-item2 {
@@ -169,8 +255,37 @@ ul {
   padding-left: 15%;
   padding-right: 15%; }
 
+@media screen and (max-width: 768px) {
+  /*INDEX 768PX*/
+  .bloque1 {
+    display: none; }
+  .navbar-div {
+    margin-right: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; }
+    .navbar-div .navbar-brand {
+      width: 20%; }
+  .logos-links-redes {
+    display: none; }
+  .navbar-toggler {
+    font-size: large; }
+  /*BOTONES 768PX*/
+  .formulario-botones-flex {
+    flex-direction: column;
+    column-gap: none;
+    row-gap: 10px; }
+  .label-nombre {
+    width: 70%; }
+  .label-email {
+    width: 90%; }
+  .form-control-pedidos {
+    width: 90%; } }
+
 .footer {
   color: #78A1A6;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-top: 5%; }
+  margin-top: 3%; }
+  .footer .inlineblock {
+    padding: 1%; }

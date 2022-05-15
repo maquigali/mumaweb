@@ -6,18 +6,19 @@ box-sizing: border-box;
 }    
 
 
-
 /*INDEX*/
 
-.encabezadoitem {
-    display: flex;   
-    justify-content: center;
-    align-items: center; 
-    
+.container-fluid {
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
 }
 
-.encabezado-item1 {
-    margin-bottom: 5%;
+
+.logo-redes {
+    margin: 2%;
+
 }
 
 .body-background {
@@ -31,6 +32,8 @@ box-sizing: border-box;
 }
   
 
+
+
 .main_image1 {
     @include sizes(100%, 100%);    
     
@@ -38,40 +41,20 @@ box-sizing: border-box;
 
 }
 
-.col-md-4 {
+.columnas-index {
     padding: 0%;
 }
 
-.col-lg-4 {
-    padding: 0%;
-}
-
-.inlineblock {
-    padding: 1%;
-}
-
-
-@media screen and (max-width: 768px) {    
-
-    /*INDEX 768PX*/
-
-    .bloque1 {
-        display: none;
-    }    
- 
-    
-   
-    
-}
 
 
  /*PRODCUTOS*/
 
  .titulo-grande {
-    font-family: $tipografia-titulos;
+    
     color: $color-principal;
     font-size: 50px;
-    padding: 2%;
+    font-family: $tipografia-titulos;
+    
 }
 
 .grid-prod-b1-img1 {     
@@ -80,15 +63,103 @@ box-sizing: border-box;
 
 .grid-prod-b1-descripcion {
     color: $color-principal;     
-    font-size: 20px;
+    font-size: 25px;
     width:100%;
     height:100%;
-    font-family:$tipografia;
-    padding:5px;
+    font-family:$tipografia;    
     text-align: center;
     
+.fotos-p-padding {
+    padding-left: 15%;
+    padding-right: 15%;
 
 }
+
+
+    /*BOTONES*/  
+
+}
+
+.div-boton-vermodelos {
+    margin-bottom: 50px;
+
+}
+
+.div-boton-masinfo {
+    @extend .div-boton-vermodelos;
+}
+
+
+.btn-ghost {    
+    border: 3px solid $color-principal;
+    color: $color-cremita;
+    background-color: $color-principal;
+    border-radius: 12px;
+    font-size: 20px; 
+    width: auto;
+
+}
+
+ 
+.boton-mas-info {
+    
+    font-size: 20px; 
+    color: $color-principal;
+    background-color: $color-celeste-clarito;
+    border-radius: 12px;
+    border: 3px solid $color-principal;
+    width: auto;
+}
+
+.btn-ghost:hover {
+
+    color: $color-rosa-clarito;
+    background-color: $color-rosa-oscuro;
+    border: 3px solid $color-rosa-clarito;
+
+
+
+}
+
+.boton-mas-info:hover {
+    @extend .btn-ghost:hover
+}
+
+.boton-borrar {
+    font-size: 20px; 
+    color: $color-principal;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 3px solid $color-principal;
+    width: 200px;
+}
+
+
+.boton-borrar:hover {
+    @extend .btn-ghost:hover
+}
+
+.boton-enviar {
+    font-size: 20px; 
+    color: $color-cremita;
+    background-color: $color-principal;
+    border-radius: 12px;
+    border: 3px solid $color-principal;
+    width: 200px;
+}
+
+.boton-enviar:hover {
+    @extend.btn-ghost:hover
+
+}
+
+.formulario-botones-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
 
 
 
@@ -106,11 +177,17 @@ box-sizing: border-box;
     object-fit: cover;
 
 }
+
+
+
 .img-pickup {
-    height: 100px;
+    height: auto;
+    width: 80px;
+    object-fit: cover;
+    margin: 20px;
 }
 
-.img-envios {
+.img-logos {
     @extend .img-pickup
 }
 
@@ -125,9 +202,10 @@ box-sizing: border-box;
     color: $color-principal;
     font-family: $tipografia;
     font-size: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
     margin-top: 10px;
+   
 }
 
 
@@ -156,12 +234,14 @@ box-sizing: border-box;
 
 
 .texto-envios {         
- @extend.texto-pickup
+ @extend.texto-pickup;
     
 }
 
 
-
+.nav {
+    padding-right: 20px;
+}
 
 
 .nav-link {
@@ -170,6 +250,7 @@ box-sizing: border-box;
     font-family: $tipografia;
 
 } 
+
 
 
 .grid-formulario-contacto-titulo {
@@ -189,29 +270,43 @@ box-sizing: border-box;
 }
 
 
-/*contacto*/
-.boton-enviar {
+/*CONTACTO*/
 
-    font-size: small; 
-    color: $color-cremita;
-    background-color: $color-principal;
-    border-radius: 8px;
-    width: 14%;
-    
-    
-}
-
-.boton-borrar {
-    
-   
-    font-size: small; 
-    color: $color-principal;
-    background-color: $color-cremita;
+.label-nombre {
+    background-color: $color-celeste-clarito;  
+    border-radius: 18px;
+    width: 40%;
+    height: 50px;
+    border: 2px solid $color-principal;
     border-color: $color-principal;
-    border-radius: 8px;
-    width: 14%;
     
+
 }
+
+.label-email {
+    background-color: $color-celeste-clarito;
+    border-radius: 18px;
+    width: 50%;
+    height: 50px;
+    border: 2px solid $color-principal;
+    border-color: $color-principal; 
+
+}
+
+
+.form-control-pedidos {
+    background-color: $color-celeste-clarito;
+    border-radius: 18px;
+    width: 50%;
+    height: 200px;
+    border: 2px solid $color-principal;
+    border-color: $color-principal;
+
+}
+
+
+
+
 
 /*FAQ*/
 
@@ -235,6 +330,73 @@ box-sizing: border-box;
     padding-left: 15%;
     padding-right: 15%;
     
+    
         
         
 }
+
+
+
+@media screen and (max-width: 768px) {    
+
+    /*INDEX 768PX*/
+
+    .bloque1 {
+        display: none;
+    }    
+ 
+    .navbar-div {
+    margin-right: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+    .navbar-brand {
+        width: 20%;
+
+
+        
+    }
+
+}
+    
+    .logos-links-redes {
+        display: none;
+    }
+
+    .navbar-toggler {
+        font-size: large;
+        
+    }
+
+ /*BOTONES 768PX*/
+
+    .formulario-botones-flex {
+
+        flex-direction: column;
+        column-gap: none;
+        row-gap: 10px;
+    }
+
+    .label-nombre {
+       
+        width: 70%;
+        
+        
+    
+    }
+    
+    .label-email {
+        
+        width: 90%;
+        
+    }
+    
+    
+    .form-control-pedidos {
+      
+        width: 90%;
+       
+    }
+}
+

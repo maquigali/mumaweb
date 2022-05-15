@@ -1,9 +1,40 @@
 
 
+.navbar-div {
+    margin-right: 0%;
+
+    .navbar-brand {
+        width: 100%;
+        margin-left: 5px;       
+        padding-top: 10px;
+
+    }
+    
+
+        
+        
+   
+
+}
+
+
+
+.logos-links-redes {
+   
+
+    .logo-redes {
+        width: 20%;
+        padding-top: 8px;        
+        margin-left: 0%;
+    
+    }
+}
+
 .nav-link {
   
     color:$color-principal;
     font-family: $tipografia;
+    
 
 } 
 
@@ -12,10 +43,6 @@
     justify-content: center;
     align-items: center; 
     
-}
-
-.encabezado-item1 {
-    margin-bottom: 5%;
 }
 
 
@@ -29,14 +56,49 @@ ul {
         display: inline-block;
     
 
-        a {
+        .nav-link {
     
             text-decoration: none;
             color: $color-principal;
-            font-size: medium;  
             padding: 10px;   
             font-family: $tipografia; 
             display: inline; 
+        }
+
+        .nav-link:hover {
+            background-color: transparent;
+            font-weight: bold;
+            color: $color-principal;
+
+        }
+        
+        .dropdown-menu {
+            width: 270px;
+            text-align: left;
+            background-color: $color-cremita;            
+            white-space:pre-line;           
+            border-color: $color-rosa-oscuro;
+            border: 2px solid $color-rosa-oscuro;
+            border-radius: 8px;
+           
+            
+
+            .dropdown-item {
+
+                text-decoration: overline;
+                color: $color-rosa-oscuro;
+                width: 100%;    
+                display: block;                       
+                font-family: $tipografia;                 
+               
+
+
+            }
+
+            .dropdown-item:hover {
+                background-color: transparent;
+                font-weight: bold;
+            }
         } 
     }
 }

@@ -12,89 +12,296 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body class="body-background">
-  <div class="container">
-    <div class="row">
-      <header class="col-sm-12 col-md-4 col-lg-4 encabezadoitem">
-                            <!-- <a  href="../index.html">>-->
-        <img class="encabezado-item1" src="../img/rincón muma.png" alt="LOGO" width="100px" >
-      </header>
-      <nav class="col-sm-12 col-md-8 col-lg-8">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link h2" href ="../index.html">HOME</a>
-          </li>
-          <li  class="nav-item">
-              <a class="nav-link h2" href ="productos.html">PRODUCTOS</a>
-          </li>
-          <li  class="nav-item">
-              <a class="nav-link h2" href="quienes-somos.html">QUIENES SOMOS</a>
-          </li>
-          <li  class="nav-item">
-              <a class="nav-link h2" href= "contacto.html">CONTACTO</a>
-          </li>           
-          <li class="nav-item" >
-              <a class="nav-link h2" href= "faq.html">FAQ</a>
-          </li> 
-        </ul>
-      </nav>  
-      <div class="col-sm-12 col-md-12 col-lg-12 nav justify-content-center div-titulo">
-        <h1 class="titulo-grande nav justify-content-center">NUESTROS PRODUCTOS</h1> <br>
-      </div>    
-           
-      <!--PELOTA MONTESSORI-->
-           
-      <div class="col-sm-12 col-md-12 col-lg-4 grid-prod-b1-img1">
-        <img src="../img/montessorirosa.jpg" class="img-fluid" alt="pelota-rosa">
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-2 descipcion-produ ">
-        <p class="grid-prod-b1-descripcion h3">PELOTA MONTESSORI <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus voluptates, ut porro perferendis, rem dolorum a deleniti, sed qui accusantium perspiciatis ducimus non sit eum fugiat quo quidem quia. <br> PRECIO:X</p>  
-      </div> 
+  <!--LOGO Y BARRA-->
+  <header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-flex">
+        <div class="row">
+            <div class="navbar-div col-sm-11 col-md-1 col-lg-1 text-center">
+              <a href="../index.html">
+                <img class="navbar-brand" src="../img/logosolomuma.png" alt="LOGO" >
+              </a>
+            </div>
+            <div class="logos-links-redes col-sm-1 col-md-1 col-lg-1 justify-content-start">                
+                <a href="https://www.instagram.com/rincon.muma ">
+                    <img class="logo-redes"  src="../img/Instagramlogo.png" alt="instagram" >
+                </a>              
+            
+                <a href="https://www.facebook.com/rinconmuma-102346304957383">
+                    <img class="logo-redes"  src="../img/FBlogo.png" alt= "facebook" >
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10">
+                <button type="button" class="navbar-toggler navbar-light" width="100px"  data-bs-toggle="collapse" data-bs-target="#menu-navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="menu-navegacion" class="collapse navbar-collapse">
+                    
+                <ul class="navbar-nav justify-content-end">                       
+                   <li  class="nav-item dropdown">                           
+                       <a class="nav-link dropdown-toggle h3" role="button" data-bs-toggle="dropdown">PRODUCTOS</a>
+                       <ul class="dropdown-menu">
+                        <li><a class="dropdown-item h3" href="../pages/productos.html"> VER TODOS </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-combos.html"> COMBOS </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-arcoiris.html"> ARCOIRIS WALDORF </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-babitas.html"> BABITAS </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-conejos.html"> CONEJITOS DE APEGO</a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-cubos.html"> CUBOS SENSORIALES </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-librito.html"> LIBRITO MUMA SOFT </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-pelota.html"> PELOTAS MONTESSORI </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-memotest.html"> MEMOTEST </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-mordillo.html"> MORDILLOS </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-pizarron.html"> PIZARRÓN MUMA </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-portachu.html"> PORTACHUPETES </a></li>
+                        <li><a class="dropdown-item h3" href="../pages/p-rompecabezas.html"> VALIJITA-ROMPECABEZAS</a></li>
+                        </ul>                                   
+                   </li>
+                   <li  class="nav-item">
+                       <a class="nav-link h3" href="../pages/quienes-somos.html">QUIÉNES SOMOS</a>
+                   </li>
+                   <li  class="nav-item">
+                       <a class="nav-link h3" href= "../pages/contacto.html">CONTACTO</a>
+                   </li>           
+                   <li class="nav-item" >
+                       <a class="nav-link h3" href= "../pages/faq.html">FAQ</a>
+                   </li> 
+                </ul>
+                </div>
+            </div>               
 
-      <!--ARCOIRIS-->
-      <div class="col-sm-12 col-md-12 col-lg-4 grid-prod-b1-img1">
-        <img src="../img/arcoiristorre (2).jpg" class="img-fluid" alt="arcoiristorre2">
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-2 descipcion-produ">
-        <p class="grid-prod-b1-descripcion h3">ARCOIRIS WALDORF <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus voluptates, ut porro perferendis, rem dolorum a deleniti, sed qui accusantium perspiciatis ducimus non sit eum fugiat quo quidem quia. <br> PRECIO:X</p>  
-      </div>        
-   
-
-      <!--CONEJOS DE APEGO-->
-      <div class="col-sm-12 col-md-12 col-lg-4 grid-prod-b1-img1">
-        <img src="../img/conejorosa.jpg" class="img-fluid" alt="conejorosa">
-      </div>      
-      <div class="col-sm-12 col-md-12 col-lg-2 descipcion-produ">
-          <p class="grid-prod-b1-descripcion h3">CONEJOS DE APEGO <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus voluptates, ut porro perferendis, rem dolorum a deleniti, sed qui accusantium perspiciatis ducimus non sit eum fugiat quo quidem quia. <br> PRECIO:X</p>  
-      </div>   
-      
-              
-      
-      <!--MORDILLOS-->      
-      <div class="col-sm-12 col-md-12 col-lg-4 grid-prod-b1-img1">
-        <img src="../img/mordiescoces.jpg" class="img-fluid" alt="mordiescoces">
-      </div> 
-      <div class="col-sm-12 col-md-12 col-lg-2 descipcion-produ">
-        <p class="grid-prod-b1-descripcion h3"> MORDILLOS <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus voluptates, ut porro perferendis, rem dolorum a deleniti, sed qui accusantium perspiciatis ducimus non sit eum fugiat quo quidem quia. <br> PRECIO:X</p>  
-    </div>
-
-      <footer>
-        <div class="footer col-sm-12 col-md-12 col-lg-12">
-            <p class="inlineblock h3">¡SEGUINOS EN REDES!</p>
-            <a class="inlineblock" href="https://www.instagram.com/rincon.muma">
-                <img src="../img/Instagramlogo.png" alt="instagram" width="20" height="20">
-            </a>
-            <a class="inlineblock" href="https://www.facebook.com/rinconmuma-102346304957383">
-                <img src="../img/FBlogo.png" alt= "facebook" width="20" height="20">
-            </a>
         </div>
-      </footer>            
-          
+        </div>           
+
+
+    </nav>
+  </header>
            
+  <div class="clearfix" style="margin-bottom: 30px;"></div>
+
+  <!--MAIN-->
+  <main>
+    <div class="container">
+
+      <div class="row">
+          <div class="container-faq col-sm-12 col-md-12 col-lg-12">
+              <h1 class="faq-item1 text-center titulo-grande"> NUESTROS <br> PRODUCTOS</h1> <br>
+          </div>
+      </div>
+    
+        <!--ROW: ARCOIRIS /BABITAS/ CUBOS SENSORIALES-->
+    
+      <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4">               
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/arcoiris.jpg" class="img-fluid w-100" alt="arcoiris"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> ARCOIRIS WALDORF <br> </h2>                     
+          
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-arcoiris.html">
+              <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+            </form>
+          </div>
+      </div> 
+      
+      <div class="col-sm-12 col-md-4 col-lg-4">      
+        <div class="row g-0" style="border: 3px solid #78A1A6">
+          <img src="../img/babitasx2.jpg" class="img-fluid" alt="babitas"> 
+        </div>
+        <div class="row">            
+          <h2 class="grid-prod-b1-descripcion"> <br> BABITAS <br> </h2>    
+        </div>
+        <div class="row d-flex justify-content-center">
+          <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-babitas.html">
+            <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+          </form>
+        </div>
+      </div>    
+      
+      <div class="col-sm-12 col-md-4 col-lg-4"> 
+        <div class="row g-0" style="border: 3px solid #78A1A6">
+          <img src="../img/cubosensorial.jpg" class="img-fluid" alt="cubosensorial" width=100% height=100%> 
+        </div>
+        <div class="row">            
+          <h2 class="grid-prod-b1-descripcion"> <br> CUBOS SENSORIALES <br> </h2>    
+        </div>
+        <div class="row d-flex justify-content-center">
+          <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-cubos.html">
+            <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+          </form>
+        </div>      
+          
+      </div>   
+      </div>         
+        
+      
+      <!--ROW: LIBRITO SOFT / PELOTAS MONTESSORI / MORDILLOS-->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">   
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/libritosoft.jpg" class="img-fluid" alt="libritosoft"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"><br>LIBRITO MUMA SOFT <br></h2>  
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form  class="d-flex justify-content-center div-boton-masinfo" action="../pages/p-librito.html">
+              <button class="boton-mas-info btn" type="submit"> MÁS INFO </button>
+            </form>
+          </div>                   
+        </div> 
+        
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/3pelotas.jpg" class="img-fluid" alt="pelotamontessori"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> PELOTAS MONTESSORI <br> </h2>  
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-pelota.html">
+              <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+            </form>
+          </div> 
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/mordiescoces.jpg" class="img-fluid" alt="mordiescoces"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> MORDILLOS <br> </h2>  
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-mordillo.html">
+              <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+            </form>
+          </div> 
+        </div>  
+      </div>
+      
+      <!--ROW:PIZARRONES / PORTACHUPETES / CONEJOS-->
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">            
+            <div class="row g-0" style="border: 3px solid #78A1A6">
+              <img src="../img/pizarron.jpg" class="img-fluid" alt="pizarron"> 
+            </div>
+            <div class="row">            
+              <h2 class="grid-prod-b1-descripcion"> <br> PIZARRON MUMA <br> </h2>  
+            </div>
+            <div class="row d-flex justify-content-center">
+              <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-pizarron.html">
+                <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+              </form>
+            </div>          
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">   
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/portachupetes.jpg" class="img-fluid" alt="portachupetes"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion">  <br>PORTACHUPETES <br> </h2>  
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-portachu.html">
+              <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+            </form>        
+          </div>    
+        </div>      
+            
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/conejosfondoazul.jpg" class="img-fluid" alt="conejosfondoazul"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> CONEJITOS DE APEGO <br> </h2>  
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form  class="d-flex justify-content-center div-boton-masinfo" action="../pages/p-conejos.html">
+              <button class="boton-mas-info btn" type="submit"> MÁS INFO </button>
+            </form>
+          </div>  
+
+        </div>
+
+      </div>
+        
+    <!--ROW: ROMPECABEZAS / MEMOTEST/ COMBOS-->
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/rompecabezas.jpg" class="img-fluid w-100" alt="ROMPECABEZAS"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> VALIJITA-ROMPECABEZAS<br> </h2>                      
+          
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-rompecabezas.html">
+              <button class="boton-mas-info btn" type="submit"> MÁS INFO </button>
+            </form>
+          </div>       
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/memotest-bn.jpg" class="img-fluid" alt="MEMOTEST"> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> MEMOTEST <br> </h2>    
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-memotest.html">
+              <button class="btn-ghost btn" type="submit"> VER MODELOS </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="row g-0" style="border: 3px solid #78A1A6">
+            <img src="../img/combo2.jpg" class="img-fluid" alt="cubosensorial" width=100% height=100%> 
+          </div>
+          <div class="row">            
+            <h2 class="grid-prod-b1-descripcion"> <br> COMBOS <br> </h2>    
+          </div>
+          <div class="row d-flex justify-content-center">
+            <form class="d-flex justify-content-center div-boton-vermodelos" action="../pages/p-combos.html">
+              <button class="boton-mas-info btn" type="submit"> MÁS INFO </button>
+            </form>
+          </div> 
+        </div>
+      </div>
     </div>
-  </div>  
+  </main>    
+      
+
+ <!--FOOTER-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer col-sm-12 col-md-12 col-lg-12">
+          <p class="inlineblock h3">¡SEGUINOS EN REDES!</p>
+          <a class="inlineblock" href="https://www.instagram.com/rincon.muma" target="_blank">
+              <img src="../img/Instagramlogo.png" alt="instagram" width="20" height="20">
+          </a>
+          <a class="inlineblock" href="https://www.facebook.com/rinconmuma-102346304957383" target="_blank">
+              <img src="../img/FBlogo.png" alt= "facebook" width="20" height="20">
+          </a>
+        </div>  
+      </div>
+    
+    </div>         
+  </footer>           
+
     
   <script src="../js/bootstrap.bundle.min.js"> </script>
     
