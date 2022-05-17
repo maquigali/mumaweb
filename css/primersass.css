@@ -27,7 +27,7 @@ ul {
   list-style-type: none; }
   ul li {
     display: inline-block;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-bottom: 5px; }
     ul li .nav-link {
       text-decoration: none;
@@ -103,7 +103,8 @@ ul {
   /*BOTONES*/ }
   .grid-prod-b1-descripcion .fotos-p-padding {
     padding-left: 15%;
-    padding-right: 15%; }
+    padding-right: 15%;
+    padding-top: 5px; }
 
 .div-boton-vermodelos, .div-boton-masinfo {
   margin-bottom: 50px; }
