@@ -1,6 +1,9 @@
 html {
   font-size: 62.5%; }
 
+.navbar {
+  background-color: #faf0e5; }
+
 .navbar-div {
   margin-right: 0%; }
   .navbar-div .navbar-brand {
@@ -34,7 +37,8 @@ ul {
       color: #78A1A6;
       padding: 10px;
       font-family: "Poppins", sans-serif;
-      display: inline; }
+      display: inline;
+      font-size: large; }
     ul li .nav-link:hover {
       background-color: transparent;
       font-weight: bold;
@@ -46,16 +50,27 @@ ul {
       white-space: pre-line;
       border-color: #DB9996;
       border: 2px solid #DB9996;
-      border-radius: 8px; }
+      border-radius: 8px;
+      padding-right: 10px; }
       ul li .dropdown-menu .dropdown-item {
         text-decoration: overline;
         color: #DB9996;
         width: 100%;
         display: block;
-        font-family: "Poppins", sans-serif; }
+        font-family: "Poppins", sans-serif;
+        font-size: medium;
+        padding: 0;
+        padding-left: 2%;
+        padding-right: 2%; }
       ul li .dropdown-menu .dropdown-item:hover {
         background-color: transparent;
         font-weight: bold; }
+
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%; }
 
 * {
   margin: 0%;
@@ -229,7 +244,18 @@ ul {
   width: 50%;
   height: 200px;
   border: 2px solid #78A1A6;
-  border-color: #78A1A6; }
+  border-color: #78A1A6;
+  font-style: "Poppins", sans-serif;
+  color: #78A1A6;
+  box-shadow: #CFE8DE; }
+
+.form-control-pedidos:focus {
+  outline: none; }
+
+.form-control-pedidos:hover {
+  background-color: white;
+  color: #DB9996;
+  border-color: #DB9996; }
 
 /*FAQ*/
 .faq-item2 {
@@ -254,8 +280,7 @@ ul {
   .navbar-div {
     margin-right: none;
     display: flex;
-    justify-content: center;
-    margin-top: 5px; }
+    justify-content: center; }
     .navbar-div .navbar-brand {
       width: 20%; }
   .logos-links-redes {

@@ -302,8 +302,22 @@ box-sizing: border-box;
     height: 200px;
     border: 2px solid $color-principal;
     border-color: $color-principal;
+    font-style: $tipografia;
+    color: $color-principal;
+    box-shadow: $color-celeste-clarito;
+    
 
 }
+.form-control-pedidos:focus {
+    outline: none;
+}
+
+.form-control-pedidos:hover {
+    background-color: white;
+    color: $color-rosa-oscuro;
+    border-color: $color-rosa-oscuro;
+}
+
 
 
 
@@ -350,7 +364,7 @@ box-sizing: border-box;
     margin-right: none;
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    
     
     .navbar-brand {
         width: 20%;
