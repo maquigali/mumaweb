@@ -49,6 +49,14 @@ box-sizing: border-box;
 
  /*PRODCUTOS*/
 
+
+ .fonds-recoleta-png {
+     
+     margin-bottom: 50px;
+     width: 400px;
+ }
+     
+
  .titulo-grande {
     
     color: $color-principal;
@@ -98,6 +106,7 @@ box-sizing: border-box;
     border-radius: 12px;
     font-size: 20px; 
     width: auto;
+    font-family: $tipografia;
 
 }
 
@@ -110,6 +119,7 @@ box-sizing: border-box;
     border-radius: 12px;
     border: 3px solid $color-principal;
     width: auto;
+    font-family: $tipografia;
 }
 
 .btn-ghost:hover {
@@ -117,6 +127,7 @@ box-sizing: border-box;
     color: $color-rosa-clarito;
     background-color: $color-rosa-oscuro;
     border: 3px solid $color-rosa-clarito;
+    font-family: $tipografia;
 
 
 
@@ -133,6 +144,7 @@ box-sizing: border-box;
     border-radius: 12px;
     border: 3px solid $color-principal;
     width: 200px;
+    font-family: $tipografia;
 }
 
 
@@ -147,6 +159,7 @@ box-sizing: border-box;
     border-radius: 12px;
     border: 3px solid $color-principal;
     width: 200px;
+    font-family: $tipografia;
 }
 
 .boton-enviar:hover {
@@ -159,6 +172,7 @@ box-sizing: border-box;
     flex-direction: row;
     justify-content: center;
     column-gap: 10px;
+    font-family: $tipografia;
 }
 
 
@@ -240,6 +254,11 @@ box-sizing: border-box;
 }
 
 
+
+
+
+
+
 .nav {
     padding-right: 20px;
 }
@@ -280,8 +299,18 @@ box-sizing: border-box;
     height: 50px;
     border: 2px solid $color-principal;
     border-color: $color-principal;
+    padding: 1%;
     
 
+}
+
+.label-nombre:hover {
+    background-color: white;
+    color: $color-principal;
+}
+
+.label-nombre:focus {
+    outline: none;
 }
 
 .label-email {
@@ -291,9 +320,18 @@ box-sizing: border-box;
     height: 50px;
     border: 2px solid $color-principal;
     border-color: $color-principal; 
+    padding: 1%;
 
 }
 
+.label-email:hover {
+    background-color: white;
+    color: $color-principal;
+}
+
+.label-email:focus {
+    outline: none;
+}
 
 .form-control-pedidos {
     background-color: $color-celeste-clarito;
@@ -305,6 +343,7 @@ box-sizing: border-box;
     font-style: $tipografia;
     color: $color-principal;
     box-shadow: $color-celeste-clarito;
+    padding: 1%;
     
 
 }
@@ -314,8 +353,8 @@ box-sizing: border-box;
 
 .form-control-pedidos:hover {
     background-color: white;
-    color: $color-rosa-oscuro;
-    border-color: $color-rosa-oscuro;
+    color: $color-principal;
+    border-color: $color-principal;
 }
 
 
