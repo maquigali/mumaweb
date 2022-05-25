@@ -1,6 +1,7 @@
 
 .navbar {
     background-color: $color-cremita;
+
 }
 
 
@@ -35,13 +36,8 @@
     }
 }
 
-.nav-link {
-  
-    color:$color-principal;
-    font-family: $tipografia;
-    
 
-} 
+ 
 
 .encabezadoitem {
     display: flex;   
@@ -138,6 +134,7 @@ ul {
 
 .navbar-toggler {
     border: 0 !important;
+    padding-bottom: 20px;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,

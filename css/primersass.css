@@ -16,10 +16,6 @@ html {
   padding-top: 8px;
   margin-left: 0%; }
 
-.nav-link {
-  color: #78A1A6;
-  font-family: "Poppins", sans-serif; }
-
 .encabezadoitem {
   display: flex;
   justify-content: center;
@@ -85,7 +81,8 @@ ul {
 
   /* Remove border from toggler */
 .navbar-toggler {
-  border: 0 !important; }
+  border: 0 !important;
+  padding-bottom: 20px; }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
