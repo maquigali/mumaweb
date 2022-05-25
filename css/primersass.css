@@ -30,7 +30,7 @@ ul {
     margin-bottom: 5px; }
     ul li .nav-link {
       text-decoration: none;
-      color: #78A1A6;
+      color: #78a1a6;
       padding: 10px;
       font-family: "Poppins", sans-serif;
       display: inline;
@@ -38,7 +38,7 @@ ul {
     ul li .nav-link:hover {
       background-color: transparent;
       font-weight: bold;
-      color: #78A1A6; }
+      color: #78a1a6; }
     ul li .dropdown-menu {
       width: auto;
       text-align: left;
@@ -95,7 +95,7 @@ ul {
 .toggler-icon {
   width: 30px;
   height: 3px;
-  background-color: #78A1A6;
+  background-color: #78a1a6;
   display: block;
   transition: all 0.2s; }
 
@@ -131,7 +131,7 @@ ul {
 /* State when navbar is collapsed (END) */
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
-  background-color: #78A1A6; }
+  background-color: #78a1a6; }
 
 * {
   margin: 0%;
@@ -166,7 +166,7 @@ ul {
   width: 400px; }
 
 .titulo-grande {
-  color: #78A1A6;
+  color: #78a1a6;
   font-size: 50px;
   font-family: "Lora", serif; }
 
@@ -174,7 +174,7 @@ ul {
   object-fit: cover; }
 
 .grid-prod-b1-descripcion {
-  color: #78A1A6;
+  color: #78a1a6;
   font-size: 25px;
   width: 100%;
   height: 100%;
@@ -190,9 +190,9 @@ ul {
   margin-bottom: 50px; }
 
 .btn-ghost {
-  border: 3px solid #78A1A6;
+  border: 3px solid #78a1a6;
   color: #faf0e5;
-  background-color: #78A1A6;
+  background-color: #78a1a6;
   border-radius: 12px;
   font-size: 20px;
   width: auto;
@@ -200,10 +200,10 @@ ul {
 
 .boton-mas-info {
   font-size: 20px;
-  color: #78A1A6;
+  color: #78a1a6;
   background-color: #CFE8DE;
   border-radius: 12px;
-  border: 3px solid #78A1A6;
+  border: 3px solid #78a1a6;
   width: auto;
   font-family: "Poppins", sans-serif; }
 
@@ -215,19 +215,19 @@ ul {
 
 .boton-borrar {
   font-size: 20px;
-  color: #78A1A6;
+  color: #78a1a6;
   background-color: transparent;
   border-radius: 12px;
-  border: 3px solid #78A1A6;
+  border: 3px solid #78a1a6;
   width: 200px;
   font-family: "Poppins", sans-serif; }
 
 .boton-enviar {
   font-size: 20px;
   color: #faf0e5;
-  background-color: #78A1A6;
+  background-color: #78a1a6;
   border-radius: 12px;
-  border: 3px solid #78A1A6;
+  border: 3px solid #78a1a6;
   width: 200px;
   font-family: "Poppins", sans-serif; }
 
@@ -258,7 +258,7 @@ ul {
   font-family: "Lora", serif; }
 
 .about-us-texto {
-  color: #78A1A6;
+  color: #78a1a6;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   padding-left: 15%;
@@ -269,23 +269,23 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color: #78A1A6; }
+  color: #78a1a6; }
 
 .texto-pickup, .texto-envios {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: #78A1A6; }
+  color: #78a1a6; }
 
 .nav {
   padding-right: 20px; }
 
 .nav-link {
-  color: #78A1A6;
+  color: #78a1a6;
   font-family: "Poppins", sans-serif; }
 
 .grid-formulario-contacto-titulo .formulario-contacto-items {
   background-color: #faf0e5;
-  color: #78A1A6;
+  color: #78a1a6;
   font-size: medium;
   font-family: "Poppins", sans-serif;
   margin-top: 5%;
@@ -298,13 +298,13 @@ ul {
   border-radius: 18px;
   width: 40%;
   height: 50px;
-  border: 2px solid #78A1A6;
-  border-color: #78A1A6;
+  border: 2px solid #78a1a6;
+  border-color: #78a1a6;
   padding: 1%; }
 
 .label-nombre:hover {
   background-color: white;
-  color: #78A1A6; }
+  color: #78a1a6; }
 
 .label-nombre:focus {
   outline: none; }
@@ -314,13 +314,13 @@ ul {
   border-radius: 18px;
   width: 50%;
   height: 50px;
-  border: 2px solid #78A1A6;
-  border-color: #78A1A6;
+  border: 2px solid #78a1a6;
+  border-color: #78a1a6;
   padding: 1%; }
 
 .label-email:hover {
   background-color: white;
-  color: #78A1A6; }
+  color: #78a1a6; }
 
 .label-email:focus {
   outline: none; }
@@ -330,10 +330,10 @@ ul {
   border-radius: 18px;
   width: 50%;
   height: 200px;
-  border: 2px solid #78A1A6;
-  border-color: #78A1A6;
+  border: 2px solid #78a1a6;
+  border-color: #78a1a6;
   font-style: "Poppins", sans-serif;
-  color: #78A1A6;
+  color: #78a1a6;
   box-shadow: #CFE8DE;
   padding: 1%; }
 
@@ -342,20 +342,20 @@ ul {
 
 .form-control-pedidos:hover {
   background-color: white;
-  color: #78A1A6;
-  border-color: #78A1A6; }
+  color: #78a1a6;
+  border-color: #78a1a6; }
 
 /*FAQ*/
 .faq-item2 {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: #78A1A6; }
+  color: #78a1a6; }
 
 .faq-item3 {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: #78A1A6;
+  color: #78a1a6;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15%;
@@ -390,7 +390,7 @@ ul {
     width: 90%; } }
 
 .footer {
-  color: #78A1A6;
+  color: #78a1a6;
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 3%;
