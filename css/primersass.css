@@ -376,7 +376,8 @@ ul {
   .navbar-toggler {
     font-size: large; }
   .titulo-grande {
-    padding-top: 5%; }
+    padding-top: 5%;
+    font-size: 40px; }
   /*BOTONES 768PX*/
   .formulario-botones-flex {
     flex-direction: column;
