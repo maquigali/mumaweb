@@ -376,16 +376,19 @@ ul {
   .navbar-toggler {
     font-size: large; }
   .titulo-grande {
-    padding-top: 5%;
+    padding-top: 10%;
     font-size: 40px; }
   .faq-item3 {
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    color: #78a1a6;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 7%;
-    padding-right: 7%; }
+    font-size: 14px;
+    padding-bottom: 2px;
+    padding-left: 3%;
+    padding-right: 3%; }
+  .img-mordi {
+    display: none; }
+  .texto-pickup, .texto-envios {
+    font-size: 14px; }
+  .texto-envios {
+    font-size: 14px; }
   /*BOTONES 768PX*/
   .formulario-botones-flex {
     flex-direction: column;

@@ -407,14 +407,14 @@ box-sizing: border-box;
     justify-content: center;
     
     
-    .navbar-brand {
-        width: 20%;
+        .navbar-brand {
+         width: 20%;
 
 
         
-    }
+        }
 
-}
+    }
     
     .logos-links-redes {
         display: none;
@@ -428,7 +428,7 @@ box-sizing: border-box;
     .titulo-grande {
     
     
-        padding-top: 5%;
+        padding-top: 10%;
         font-size: 40px;
     
         
@@ -436,18 +436,34 @@ box-sizing: border-box;
 
     .faq-item3 {
     
-        font-size: 15px;
-        font-family: $tipografia;
-        color: $color-principal;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 7%;
-        padding-right: 7%;
+        font-size: 14px;
+        padding-bottom: 2px;
+        padding-left: 3%;
+        padding-right: 3%;
         
         
             
             
     }
+
+    .img-mordi {
+        display: none;
+    }
+
+    .texto-pickup {       
+       
+        font-size: 14px;    
+        
+             
+        
+    }
+
+    .texto-envios {
+        font-size: 14px;
+    }
+    
+    
+    
 
  /*BOTONES 768PX*/
 
