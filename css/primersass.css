@@ -409,3 +409,9 @@ ul {
   margin-bottom: 50px; }
   .footer .inlineblock {
     padding: 1%; }
+
+a {
+  color: transparent; }
+
+a:hover {
+  color: transparent; }
